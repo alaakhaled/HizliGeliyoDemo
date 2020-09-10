@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">HizliGeliyo</string>
+
+    <!-- fonts -->
+    <string name="text_regular">regular</string>
+    <string name="text_light">light</string>
+    <string name="text_bold">bold</string>
+    <string name="text_medium">medium</string>
+    <string name="text_medium_italic">medium_italic</string>
+
+    <string name="title_activity_product">Product</string>
+    <string name="title_home">Home</string>
+    <string name="title_list">List</string>
+    <string name="title_prices">Price</string>
+    <string name="title_profile">Profile</string>
+
+
+    <string name="no_data_found">NO DATA FOUND</string>
+
+    <string name="product_title">Product Title</string>
+    <string name="product_desc">Product Desc</string>
+    <string name="product_price">Product Price</string>
+
+
+    <string name="search_by">Search by product name or category</string>
+
+    <string name="no_internet_connection_msg">No internet connection. Check your connection or try again, please!</string>
+
+    <string name="login_lbl">Login</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="login">Login</string>
+    <string name="signup_f">You don\'t have account?</string>
+    <string name="signup_s">Signup</string>
+
+    <string name="ok">Ok</string>
+
+
+
+</resources>

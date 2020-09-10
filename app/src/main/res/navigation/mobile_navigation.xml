@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.aabusabra.hizligeliyodemo.view.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_list"
+        android:name="com.aabusabra.hizligeliyodemo.view.ListFragment"
+        android:label="@string/title_list"
+        tools:layout="@layout/fragment_list" />
+
+    <fragment
+        android:id="@+id/navigation_prices"
+        android:name="com.aabusabra.hizligeliyodemo.view.PricesFragment"
+        android:label="@string/title_prices"
+        tools:layout="@layout/fragment_prices" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.aabusabra.hizligeliyodemo.view.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
