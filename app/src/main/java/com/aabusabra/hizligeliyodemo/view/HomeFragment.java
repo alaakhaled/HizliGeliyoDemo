@@ -80,6 +80,8 @@ public class HomeFragment extends Fragment {
 
 
 
+        searchEdittxt.clearFocus();
+
 
         //animations
         animationUp = AnimationUtils.loadAnimation(mContext, R.anim.slide_up);
